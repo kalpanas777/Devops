@@ -1,0 +1,35 @@
+Inside our computer we can create a virtual computer.
+	What is virtualization
+		One computer does the job of multiple computers (multiple OS).
+	
+	Life Before Virtualization
+To run app/services we need server
+Physical computers (Servers in Datacenter)
+One service- One Server (Isolation)
+Servers are always overprovisioned
+Server Resources mostly underutilized
+Huge Cap Ex & Op Ex.
+	
+	
+Enter VMware.
+Allow the same computer to run multiple OS.
+Partition physical resource in virtual resource.
+Virtual Machines runs in Isolated Env.
+Each virtual machine need its own OS.
+Server Virtualization is the most common virtualization.
+
+Terminologies:
+Host OS
+Guest OS
+VM
+Snapshot: Is a way of taking backup of VM	
+Hypervisor: Tool/software to create VM
+Type 1
+Bare Metal
+Runs as a Base OS
+Only for production
+E.g. VMware esxi, Xen Hypervisor
+Type 2 
+Runs a software
+Learn & Test
+E.g. Oracle virtualbox, Vmware server
